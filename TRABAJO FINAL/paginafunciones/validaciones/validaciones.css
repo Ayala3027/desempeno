@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(215, 215, 215);
+    background-image: url(../imagenes/fondo1.jpg);
+}
+h1{
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h2{
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+button{
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 5px;
+    margin-left: 145px;
+}
+button:hover{
+    background-color: rgb(176, 172, 172);
+    color: white;
+    font-size: 24px;
+}
+.contenedor{
+    background-color: rgba(153, 188, 175, 0.712);
+    height: 530px;
+    width: 570px;
+    margin: 20px;
+    margin-left: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    position: absolute;
+}
+
+.marco{
+    background-color: white;
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.contenedor label{
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+label:hover{
+    color: white;
+}
+input:hover{
+    background-color:rgba(190, 188, 188, 0.557); ;
+}
+#nombre{
+margin-left: 110px;
+}
+#apellido{
+margin-left: 110px;
+}#edad{
+margin-left: 133px;
+}
+#direccion{
+margin-left: 103px;
+}
+#correo{
+margin-left: 42px;
+}
+#fechana{
+margin-left: 80px;
+}
+#sexo{
+margin-left: 120px;
+}
+#tel{
+margin-left: 110px;
+}
